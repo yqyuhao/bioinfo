@@ -2,7 +2,7 @@
 set +x
 #init
 ######################
-software=/software/Righton_Software
+software=/yqyuhao
 Ncpu=$(lscpu|awk '/^CPU\(s\)/{print int($2)}')
 bin_dir=$software/bin
 target_dir=$software/target
